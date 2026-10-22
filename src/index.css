@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-forest-dark: #07150e;
+    --color-forest: #0d1f17;
+    --color-forest-light: #162f23;
+    --color-gold: #c5a880;
+    --color-gold-bright: #e5c378;
+    --color-gold-deep: #9d7b4c;
+    --color-cream: #f7f4ee;
+    --color-ivory: #faf8f5;
+  }
+
+  body {
+    background-color: #07150e;
+    color: #f7f4ee;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'DejaVu Sans', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #07150e;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a4738;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c5a880;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', 'Playfair Display', 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+.font-script {
+  font-family: 'Alex Brush', cursive;
+}
+
+
+/* Mughal Arch Shape */
+.mughal-arch {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+/* Subtle gold shimmer */
+.gold-shimmer {
+  background: linear-gradient(135deg, #c5a880 0%, #fae2b4 50%, #b38f56 100%);
+}
+
+.gold-border {
+  border-color: rgba(197, 168, 128, 0.4);
+}
+
+.gold-border-bright {
+  border-color: rgba(229, 195, 120, 0.7);
+}

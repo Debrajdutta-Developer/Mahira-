@@ -1,0 +1,6 @@
+{
+  "name": "Mahira Select",
+  "description": "Luxury Indian Ethnic Fashion, Sarees, Kurta Sets & Handcrafted Kalakaari Collections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
