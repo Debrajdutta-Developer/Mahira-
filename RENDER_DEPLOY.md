@@ -35,7 +35,7 @@ If you prefer configuring the Web Service manually in Render:
 | **Language / Runtime** | `Node` |
 | **Region** | `Singapore (Southeast Asia)` or closest to your customers |
 | **Branch** | `main` |
-| **Build Command** | `npm install && npm run build` |
+| **Build Command** | `npm install --legacy-peer-deps && npm run build` |
 | **Start Command** | `npm start` |
 | **Instance Type** | `Free` (or Starter for 24/7 always-on) |
 
